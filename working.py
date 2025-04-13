@@ -45,7 +45,7 @@ COMMON_BUBBLE_STYLE = """
 # Initialize API and App
 # --------------------------
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = st.secrets["openai"]["api_key"]
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 st.set_page_config(page_title="HDB Companion", layout="wide")

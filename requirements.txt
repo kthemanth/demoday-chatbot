@@ -1,6 +1,5 @@
 pip
 python-dotenv
-.
 streamlit
 pandas
 matplotlib
