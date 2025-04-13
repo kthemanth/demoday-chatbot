@@ -23,7 +23,7 @@ from hdb_charts import data_last_resale_price
 
 
 #import data
-df = pd.read_csv("data/intermediate/data_concat.csv", header=0)
+df = pd.read_csv("data_concat.csv", header=0)
 
 # run intial preprocessing
 df_initial_preproc(df)
