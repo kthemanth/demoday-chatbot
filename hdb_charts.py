@@ -609,3 +609,6 @@ def data_last_resale_price(df, room, twn):
     formatted_price = "${:,}".format(int(round(last_resale_price)))
 
     return formatted_price
+
+def trendplot():
+    pass
