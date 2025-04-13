@@ -1,0 +1,16 @@
+pip
+python-dotenv
+.
+streamlit
+pandas
+matplotlib
+seaborn
+openai
+python-dotenv
+langchain-community
+langchain_openai
+langchain-core
+pypdf
+faiss-cpu
+kaleido
+plotly
